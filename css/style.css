@@ -1,0 +1,158 @@
+body {
+	background: url('../images/background2.jpg');
+	background-size: cover;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+
+.site-image{
+	background-image: url('../images/BMR.jpg');
+	
+	width: 1200px;
+    height: 400px;
+	background-position: top;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 10px;
+	left: 160px;
+}
+
+
+
+.page {
+	max-width: 600px;
+	margin: 10px auto;
+	background-color: #F9EBEA;
+	padding: 100px 30px;
+}
+
+
+
+.page h1 {
+	text-align: center;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #ededed;
+	padding-bottom: 5px;
+	background-color: black;
+	color: white;
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+/* Forms */
+.form-element {
+	overflow: hidden;
+	padding-bottom: 25px;
+}
+
+.form-element label {
+	font-weight: bold;
+	display: block;
+	padding-bottom: 7px;
+}
+
+.form-element .textbox {
+	display: block;
+	width: 100%;
+	height: 50px;
+	word-break: break-word;
+	padding: 5px;
+}
+
+.form-element .ratingselect {
+	display: block;
+	width: 10%;
+	height: 25px;
+	word-break: break-word;
+	padding: 5px;
+}
+
+.form-element .boxy {
+	display: block;
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+}
+
+.form-element .radio {
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-left: 1px
+}
+
+.radio-label {
+	vertical-align: middle;
+}
+
+.user{
+	text-align: left;
+	color: red;
+}
+
+p.review{
+	border-style: solid;
+	border-color: black;
+	height: 50px;
+	background-color: white;
+}
+.checked{
+	color: orange;	
+}
+
+p.thingy{
+	position:absolute;
+	left:58%;
+    top:46%;
+    width:15%;
+}
+p.thingy2{
+	position:absolute;
+	left:65%;
+    top:48%;
+    width:15%;
+}
+
+
+.search_bar input[type="text"] {
+    position:absolute;
+    left:42%;
+    top:47%;
+    width:15%;
+    background-color:white;
+    color:grey;
+}
+
+select {
+	height: 100%;
+	/*-webkit-appearance: none;
+    -moz-appearance: none;*/
+    border-radius: 0px;
+    background: white;
+    padding: 5px;
+    width: 100%;
+}
+
+.button {
+	background: black;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+
+.button:hover {
+	background: #ffe766;
+}
